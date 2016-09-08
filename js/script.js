@@ -16,6 +16,10 @@ var generatioElenent = {
     addContent : function (element, content) {
       element.innerHTML = content;
     }
+
+    addCheckbox : function (title) {
+
+    }
 }
 
 var headBlock = generatioElenent.addElement( 'div' );
@@ -37,6 +41,8 @@ var question1H2 = generatioElenent.addContent( question1, '1. Вопрос №1'
 var checkbox = generatioElenent.addElement( 'input' );
 checkbox.type = 'checkbox';
 var checkboxPosition = generatioElenent.addBlock( '.content', checkbox );
+
+
 
 
 
