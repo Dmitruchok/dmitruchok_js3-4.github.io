@@ -19,14 +19,24 @@ var generatioElenent = {
 }
 
 var headBlock = generatioElenent.addElement( 'div' );
-var nameDIV = generatioElenent.addClassname( headBlock, 'header');
+var nameHeadBlock = generatioElenent.addClassname( headBlock, 'header');
 var headBlockposition = generatioElenent.addBlock( 'body', headBlock );
 
 var headText = generatioElenent.addElement( 'h3');
 var headTextposition = generatioElenent.addBlock( '.header', headText );
 var contentH3 = generatioElenent.addContent( headText, 'Тест по програмированию' )
 
+var contentBlock = generatioElenent.addElement( 'div' );
+var nameContentblock = generatioElenent.addClassname( contentBlock, 'content');
+var contentBlockposition = generatioElenent.addBlock( 'body', contentBlock );
 
+var question1 = generatioElenent.addElement( 'h2');
+var question1Position = generatioElenent.addBlock( '.content', question1 );
+var question1H2 = generatioElenent.addContent( question1, '1. Вопрос №1' )
+
+var checkbox = generatioElenent.addElement( 'input' );
+checkbox.type = 'checkbox';
+var checkboxPosition = generatioElenent.addBlock( '.content', checkbox );
 
 
 
