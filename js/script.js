@@ -16,24 +16,27 @@ var generatioElenent = {
       addContent : function (element, content ) {
         element.innerHTML = content;
       },
-
 }
 
-var headBlock = generatioElenent.addElement( 'div' );
-                generatioElenent.addClassname( headBlock, 'header' );
-                generatioElenent.addBlock( 'body', headBlock );
+var headBlock,
+    headText;
 
-var headText = generatioElenent.addElement( 'h3');
-               generatioElenent.addBlock( '.header', headText );
-               generatioElenent.addContent( headText, 'Тест по програмированию' )
+headBlock = generatioElenent.addElement( 'div' );
+            generatioElenent.addClassname( headBlock, 'header' );
+            generatioElenent.addBlock( 'body', headBlock );
+headText = generatioElenent.addElement( 'h3');
+           generatioElenent.addBlock( '.header', headText );
+           generatioElenent.addContent( headText, 'Тест по програмированию' );
+var contentBlock,
+    question1;
 
-var contentBlock = generatioElenent.addElement( 'div' );
-                   generatioElenent.addClassname( contentBlock, 'content');
-                   generatioElenent.addBlock( 'body', contentBlock );
+contentBlock = generatioElenent.addElement( 'div' );
+               generatioElenent.addClassname( contentBlock, 'content');
+               generatioElenent.addBlock( 'body', contentBlock );
 
-var question1 = generatioElenent.addElement( 'h2');
-                generatioElenent.addBlock( '.content', question1 );
-                generatioElenent.addContent( question1, '1. Вопрос №1' );
+question1 = generatioElenent.addElement( 'h2');
+            generatioElenent.addBlock( '.content', question1 );
+            generatioElenent.addContent( question1, '1. Вопрос №1' );
 var label,
     checkBox,
     textCheckBox;
@@ -44,11 +47,40 @@ checkBox = generatioElenent.addElement( 'input' );
            checkBox.type = 'checkbox';
            generatioElenent.addBlock( 'label', checkBox );
 textCheckBox = generatioElenent.addElement( 'p' );
-               generatioElenent.addContent( textCheckBox, 'Вариант ответа №1');
+               generatioElenent.addContent( textCheckBox, 'Вариант ответа №2');
                generatioElenent.addBlock( 'label', textCheckBox );
 
+var label1 = generatioElenent.addElement( 'label' );
+             label1.id = 'two_label';
+             generatioElenent.addBlock('.content', label1 );
+var checkBox1 = generatioElenent.addElement( 'input' );
+                checkBox1.type = 'checkbox';
+                generatioElenent.addBlock( 'label', checkBox1 );
+var textCheckBox1 = generatioElenent.addElement( 'p' );
+                    generatioElenent.addContent( textCheckBox1, 'Вариант ответа №1');
+                    generatioElenent.addBlock( 'label', textCheckBox1 );
+
+var question2 = generatioElenent.addElement( 'h2');
+            generatioElenent.addBlock( '.content', question2 );
+            generatioElenent.addContent( question2, '2. Вопрос №2' );
 
 
+var question3 = generatioElenent.addElement( 'h2');
+                generatioElenent.addBlock( '.content', question3 );
+                generatioElenent.addContent( question3, '3. Вопрос №3' );
+
+var footBlock,
+    buttonClick,
+    buttonText;
+
+footBlock = generatioElenent.addElement( 'div' );
+            generatioElenent.addClassname( footBlock, 'footer' );
+            generatioElenent.addBlock( 'body', footBlock );
+buttonClick = generatioElenent.addElement( 'button' );
+              generatioElenent.addBlock( '.footer', buttonClick );
+buttonText = generatioElenent.addElement( 'p');
+             generatioElenent.addBlock( 'button', buttonText );
+             generatioElenent.addContent( buttonText, 'Проверить мои результаты' );
 
 
 /*var body = document.querySelector('body');

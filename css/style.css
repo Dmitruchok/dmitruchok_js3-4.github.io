@@ -10,7 +10,15 @@ body {
   margin: 20px 0 0 20px;
 }
 
-.content input,
+
 .content p {
   display: inline-block;
+}
+
+button {
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #000;
 }
