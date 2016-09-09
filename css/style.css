@@ -9,3 +9,8 @@ body {
 .content h2 {
   margin: 20px 0 0 20px;
 }
+
+.content input,
+.content p {
+  display: inline-block;
+}
