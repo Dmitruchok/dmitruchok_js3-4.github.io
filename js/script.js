@@ -33,19 +33,19 @@ var contentBlock = generatioElenent.addElement( 'div' );
 
 var question1 = generatioElenent.addElement( 'h2');
                 generatioElenent.addBlock( '.content', question1 );
-                generatioElenent.addContent( question1, '1. Вопрос №1' )
+                generatioElenent.addContent( question1, '1. Вопрос №1' );
 var label,
-    checkbox,
-    textCheckbox;
+    checkBox,
+    textCheckBox;
 
 label = generatioElenent.addElement( 'label' );
         generatioElenent.addBlock( '.content', label );
-checkbox = generatioElenent.addElement( 'input' );
-           checkbox.type = 'checkbox';
-           generatioElenent.addBlock( 'label', checkbox );
-textCheckbox = generatioElenent.addElement( 'p' );
-               generatioElenent.addContent( textCheckbox, 'Вариант ответа №1');
-               generatioElenent.addBlock( 'label', textCheckbox );
+checkBox = generatioElenent.addElement( 'input' );
+           checkBox.type = 'checkbox';
+           generatioElenent.addBlock( 'label', checkBox );
+textCheckBox = generatioElenent.addElement( 'p' );
+               generatioElenent.addContent( textCheckBox, 'Вариант ответа №1');
+               generatioElenent.addBlock( 'label', textCheckBox );
 
 
 
