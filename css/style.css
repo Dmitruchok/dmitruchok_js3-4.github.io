@@ -10,6 +10,10 @@ body {
   margin: 20px 0 0 20px;
 }
 
+.content input {
+  width: 20px;
+  height: 20px;
+}
 
 .content p {
   display: inline-block;
