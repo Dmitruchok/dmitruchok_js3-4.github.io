@@ -11,6 +11,10 @@ body {
   font-weight: normal;
 }
 
+.content label {
+  display: block;
+}
+
 .content input {
   width: 20px;
   height: 20px;
