@@ -47,18 +47,37 @@ checkBox = generatioElenent.addElement( 'input' );
            checkBox.type = 'checkbox';
            generatioElenent.addBlock( 'label', checkBox );
 textCheckBox = generatioElenent.addElement( 'p' );
-               generatioElenent.addContent( textCheckBox, 'Вариант ответа №2');
+               generatioElenent.addContent( textCheckBox, 'Вариант ответа №1');
                generatioElenent.addBlock( 'label', textCheckBox );
+var labelQuestionOne,
+    checkBoxQuestionOne,
+    textCheckBoxQuestionOne;
 
-var label1 = generatioElenent.addElement( 'label' );
-             label1.id = 'two_label';
-             generatioElenent.addBlock('.content', label1 );
-var checkBox1 = generatioElenent.addElement( 'input' );
-                checkBox1.type = 'checkbox';
-                generatioElenent.addBlock( 'label', checkBox1 );
-var textCheckBox1 = generatioElenent.addElement( 'p' );
-                    generatioElenent.addContent( textCheckBox1, 'Вариант ответа №1');
-                    generatioElenent.addBlock( 'label', textCheckBox1 );
+labelQuestionOne = generatioElenent.addElement( 'label' );
+         labelQuestionOne.id = 'two_label';
+         generatioElenent.addBlock('.content', labelQuestionOne );
+checkBoxQuestionOne = generatioElenent.addElement( 'input' );
+            checkBoxQuestionOne.type = 'checkbox';
+            generatioElenent.addBlock( '#two_label', checkBoxQuestionOne );
+textCheckBoxQuestionOne = generatioElenent.addElement( 'p' );
+                generatioElenent.addContent( textCheckBoxQuestionOne, 'Вариант ответа №2');
+                generatioElenent.addBlock( '#two_label', textCheckBoxQuestionOne );
+
+var labelQuestionTwo,
+    checkBoxQuestionTwo,
+    textCheckBoxQuestionTwo;
+
+labelQuestionTwo = generatioElenent.addElement( 'label' );
+                    labelQuestionTwo.id = 'three_label';
+                    generatioElenent.addBlock('.content', labelQuestionTwo );
+checkBoxQuestionTwo = generatioElenent.addElement( 'input' );
+                      checkBoxQuestionTwo.type = 'checkbox';
+                      generatioElenent.addBlock( '#three_label', checkBoxQuestionTwo );
+textCheckBoxQuestionTwo = generatioElenent.addElement( 'p' );
+                          generatioElenent.addContent( textCheckBoxQuestionTwo, 'Вариант ответа №3');
+                          generatioElenent.addBlock( '#three_label', textCheckBoxQuestionTwo );
+
+
 
 var question2 = generatioElenent.addElement( 'h2');
             generatioElenent.addBlock( '.content', question2 );
