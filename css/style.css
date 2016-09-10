@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+.content {
+  margin-left: 80px;
+}
+
 .content h2 {
   margin: 20px 0 0 20px;
   font-weight: normal;
@@ -13,6 +17,7 @@ body {
 
 .content label {
   display: block;
+  margin-left: 50px;
 }
 
 .content input {
@@ -23,6 +28,7 @@ body {
 
 .content p {
   display: inline-block;
+  margin: 0;
 }
 
 button {
