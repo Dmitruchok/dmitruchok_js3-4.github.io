@@ -2,31 +2,36 @@ body {
   width: 900px;
 }
 
-.header h3 {
+.header_test {
+  margin-bottom: 60px;
+}
+
+.header_test h3 {
   text-align: center;
 }
 
-.content {
+.number_guestion {
   margin-left: 80px;
 }
 
-.content h2 {
-  margin: 20px 0 0 20px;
+.number_guestion h2 {
+  font-size: 20px;
   font-weight: normal;
+  margin: 20px 0 0 50px;
 }
 
-.content label {
+.number_guestion label {
   display: block;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
-.content input {
+.number_guestion input {
   width: 20px;
   height: 20px;
   box-shadow: inset 0 0 2px 2px #000;
 }
 
-.content p {
+.number_guestion p {
   display: inline-block;
   margin: 0;
 }
@@ -35,6 +40,6 @@ button {
     display: block;
     width: 300px;
     height: 70px;
-    margin: 0 auto;
+    margin: 60px auto;
     border: 2px solid #000;
 }
