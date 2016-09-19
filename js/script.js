@@ -46,6 +46,6 @@ button_result : '',
   }
 }
 
-generationDom.addHeader('Тест по програмированию');
+generationDom.addHeader('Тест по программированию');
 generationDom.addNumberBlock();
 generationDom.addFooter('Проверить мои результаты');
