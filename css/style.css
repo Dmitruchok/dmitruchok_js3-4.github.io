@@ -3,7 +3,7 @@ body {
 }
 
 .header_test {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .header_test h3 {
@@ -12,13 +12,13 @@ body {
 }
 
 .number_guestion {
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .number_guestion h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
-  margin: 20px 0 20px 50px;
+  margin: 15px 0 15px 50px;
 }
 
 .number_guestion label {
@@ -40,8 +40,8 @@ button {
     background-color: #cfe2f3;
     font-size: 18px;
     font-weight: bold;
-    width: 350px;
-    height: 60px;
+    width: 330px;
+    height: 55px;
     margin: 40px auto;
     border: 2px solid #000;
 }
