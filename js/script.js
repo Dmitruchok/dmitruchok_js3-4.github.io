@@ -1,8 +1,8 @@
 var generationDom = {
-name : '',
+
 guestions : ["1.Вопрос №1", "2.Вопрос №2", "3.Вопрос №3"],
 answers : ["Вариант ответа №1","Вариант ответа №2","Вариант ответа №3"],
-button_result : '',
+
   addHeader : function (name) {
     var divHeader = document.createElement( 'div' );
     divHeader.className = 'header_test';
