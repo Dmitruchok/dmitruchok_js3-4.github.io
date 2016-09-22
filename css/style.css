@@ -35,7 +35,7 @@ form p {
   margin: 0 0 5px 10px;
 }
 
-button {
+input[type='button'] {
     display: block;
     background-color: #cfe2f3;
     font-size: 18px;
