@@ -35,7 +35,7 @@ answers : ["Вариант ответа №1","Вариант ответа №2"
       }
     }
     inputButton =  document.createElement( 'input' );
-    inputButton.type = 'button';
+    inputButton.type = 'submit';
     inputButton.value = 'Проверить мои результаты';
     form.appendChild( inputButton );
   }
