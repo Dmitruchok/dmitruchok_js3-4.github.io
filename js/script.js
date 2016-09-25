@@ -4,14 +4,11 @@ guestions : ["1.Вопрос №1", "2.Вопрос №2", "3.Вопрос №3"
 answers : ["Вариант ответа №1","Вариант ответа №2","Вариант ответа №3"],
 
   addHeader : function (name) {
-    var divHeader, headText;
-    
-    divHeader = document.createElement( 'div' );
-    divHeader.className = 'header_test';
+    var headText;
+
     headText = document.createElement( 'h3' );
     headText.innerHTML = name;
-    divHeader.appendChild( headText );
-    document.body.appendChild( divHeader );
+    document.body.appendChild( headText );
   },
 
   addNumberBlock : function () {
