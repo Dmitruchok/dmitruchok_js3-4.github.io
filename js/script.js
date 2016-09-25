@@ -1,6 +1,6 @@
 var generationDom = {
 
-guestions : ["1.Вопрос №1", "2.Вопрос №2", "3.Вопрос №3"],
+questions : ["1.Вопрос №1", "2.Вопрос №2", "3.Вопрос №3"],
 answers : ["Вариант ответа №1","Вариант ответа №2","Вариант ответа №3"],
 
   addHeader : function (name) {
@@ -17,12 +17,12 @@ answers : ["Вариант ответа №1","Вариант ответа №2"
     form = document.createElement( 'form' );
     document.body.appendChild(form);
 
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < questions.length; i++) {
       h2 = document.createElement( 'h2' );
-      h2.innerHTML = this.guestions[i];
+      h2.innerHTML = this.questions[i];
       form.appendChild( h2 );
 
-      for (var j = 0; j < 3; j++) {
+      for (var j = 0; j < answers.length; j++) {
         label = document.createElement( 'label' );
         form.appendChild( label );
         input =  document.createElement( 'input' );
