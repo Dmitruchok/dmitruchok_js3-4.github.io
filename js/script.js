@@ -12,7 +12,7 @@ answers : [ "Вариант ответа №1", "Вариант ответа №
   },
 
   addNumberBlock : function () {
-    var form, h2, label, input, p, inputButton ;
+    var form, h2, label, input, span, inputButton ;
 
     form = document.createElement( 'form' );
     document.body.appendChild(form);
@@ -28,9 +28,9 @@ answers : [ "Вариант ответа №1", "Вариант ответа №
         input =  document.createElement( 'input' );
         input.type = 'checkbox';
         label.appendChild( input );
-        p =  document.createElement( 'p' );
-        p.innerHTML = this.answers[j];
-        label.appendChild( p );
+        span =  document.createElement( 'span' );
+        span.innerHTML = this.answers[j];
+        label.appendChild( span );
       }
     }
     inputButton =  document.createElement( 'input' );

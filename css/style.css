@@ -27,7 +27,7 @@ form input {
   box-shadow: inset 0 0 0 2px #000;
 }
 
-form p {
+form span {
   display: inline-block;
   margin: 0 0 5px 10px;
 }
