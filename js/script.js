@@ -17,12 +17,12 @@ answers : ["Вариант ответа №1","Вариант ответа №2"
     form = document.createElement( 'form' );
     document.body.appendChild(form);
 
-    for (var i = 0; i < questions.length; i++) {
+    for (var i = 0; i < this.questions.length; i++) {
       h2 = document.createElement( 'h2' );
       h2.innerHTML = this.questions[i];
       form.appendChild( h2 );
 
-      for (var j = 0; j < answers.length; j++) {
+      for (var j = 0; j < this.answers.length; j++) {
         label = document.createElement( 'label' );
         form.appendChild( label );
         input =  document.createElement( 'input' );
